@@ -8,7 +8,6 @@ $message = "<p>La página que solicitó no se encontró.</p>"
 <meta charset="utf-8">
 <title>404 No encontrado</title>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<script src="/resources/jquery/jquery.min.js?v=3.2.1"></script>
 <style type="text/css">
 body {
 	background-color: #fff;
@@ -54,11 +53,6 @@ p {
 	margin: 12px 15px 12px 15px;
 }
 </style>
-<script>
-$(function() {
-    $('a img[alt="www.000webhost.com"]').hide();
-});
-</script>
 </head>
 <body>
 	<div id="container">
