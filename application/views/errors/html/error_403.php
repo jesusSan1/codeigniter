@@ -61,11 +61,5 @@ p {
 		<h1><?php echo $heading; ?></h1>
 		<?php echo $message; ?>
 	</div>
-	<script src="/resources/jquery/jquery.min.js?v=3.4.1"></script>
-	<script>
-	    $(function() {
-            $('a img[alt="www.000webhost.com"]').hide();
-        });
-	</script>
 </body>
 </html>
